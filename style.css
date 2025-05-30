@@ -1,0 +1,104 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+img{
+    border-radius: 40px;
+    width: 80px;
+    transition: all ease-in-out 0.4s;
+}
+
+img.k:hover{
+    scale: 101%;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.45);
+}
+.overlay{
+    z-index: 3;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.653);
+    backdrop-filter: blur(20px);
+    display: none;
+}
+.ovee{
+    padding-top: 10px;
+    z-index: 4;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.653);
+    backdrop-filter: blur(20px);
+    display: block;
+}
+.kk{
+    all: unset;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all ease-in-out 0.2s;
+}
+.kk:hover{
+    scale: 101%;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.418);
+    background-color: black;
+    color: white;
+}
+.kk{
+    all: unset;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    transition: all ease-in-out 0.2s;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-touch-callout: none; 
+    -ms-user-select: none;
+    user-select: none; 
+}
+.kk:hover{
+    scale: 101%;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.418);
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.ff{
+    margin-top: 1%;background-color: white;padding: 30px;border-radius: 40px;box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.443);width: 40%;
+}
+.main{
+    border: 20px solid black;width: 350px;border-radius: 30px;height: 650px;padding: 20px;margin-left: -2%;
+}
+body{
+    background-image: url(assets/bg.png);
+}
+@media (max-width: 450px) {
+    .main{
+        border-color: white;
+    }
+}
+@media (max-width: 900px) {
+    body{
+        background-color: white;
+        background-image: none;
+    }
+}
+a{
+    all: unset;
+    font-size: 20px;
+    transition: all ease-in 0.4s;
+    cursor: pointer;
+}
+a :hover{
+    scale: 102%;
+}
+

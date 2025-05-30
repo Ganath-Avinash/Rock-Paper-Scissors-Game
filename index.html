@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors V-1.01</title>
+    <link rel="icon" href="assets/w.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="ovee" id="ovee">
+        <center><div class="ff">
+        <h1 style="font-size: 3.5vw;">Rock Paper Scissors</h1>
+        <h2 style="font-size: 3.0vw;">Rules: </h2>
+        <h3 style="font-size: 2.5vw;font-weight: normal;">1. Choose your option</h3>
+        <h3 style="font-size: 2.5vw;font-weight: normal;">2. First to 10 point Wins !</h3><br>
+        <button  style="font-size: 2.5vw;" onclick="openss()" class="kk">Continue</button>
+
+        </div>
+        </center>
+    </div>
+    <div id="over" class="overlay">
+        <div style="padding: 60px;background-color: white;"><center>
+            <h1 id="winner">You Win !!</h1><br>
+            <button onclick="fn()" class="kk"><i class="fa fa-bolt" aria-hidden="true"></i>&ThickSpace;&ThickSpace;&ThickSpace;Play Again?</button>
+        </center>
+    </div>
+    </div>
+    <center>
+    <div id="main" class="main" style="background-color: white;">
+    <h1 style="display: inline;">PC Score: <h1 style="display: inline;" id="ops">0</h1></h1><br><br><br>
+    <table>
+        <tr>
+            <td><p style="display: inline;">P1 Choice: &ThickSpace;&ThickSpace;&ThickSpace;</p></td><td><img style="display: inline;" id="oim" src="assets/qn.png"><br></td>
+        </tr>
+        <tr>
+            <td><br></td>
+        </tr>
+        <tr>
+            <td><p style="display: inline;">P2 Choice: &ThickSpace;&ThickSpace;&ThickSpace;</p></td><td><img style="display: inline;" id="mim" src="assets/qn.png"></td>
+        </tr>
+    </table>
+    <br><br>
+    <h3>Options:</h3><br>
+    <div id="all">
+        <img class="k" src="assets/rock.png" onclick="rock()" id="1">
+        <img class="k" src="assets/paper.png" onclick="pap()" id="2">
+        <img class="k" src="assets/scissors.png" onclick="scc()" id="3">
+    </div><br><br>
+    <h1 style="display: inline;">Your Score: <h1 style="display: inline;" id="mps">0</h1></h1>
+    </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
