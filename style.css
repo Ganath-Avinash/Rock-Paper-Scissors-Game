@@ -79,7 +79,7 @@ html{
     border: 20px solid black;width: 350px;border-radius: 30px;height: 650px;padding: 20px;margin-left: -2%;
 }
 body{
-    background-image: url(assets/bg.png);
+     background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 @media (max-width: 450px) {
     .main{
