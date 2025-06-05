@@ -9,13 +9,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <audio id="end" src="assets/aa.mp3" hidden></audio>
     <div class="ovee" id="ovee">
         <center>
-        <h1 style="font-size: 3.5vw;">Rock Paper Scissors</h1>
-        <h2 style="font-size: 3.0vw;">Rules: </h2>
-        <h3 style="font-size: 2.5vw;font-weight: normal;">1. Choose your option</h3>
-        <h3 style="font-size: 2.5vw;font-weight: normal;">2. First to 10 point Wins !</h3><br>
-        <button 
+        <h1 style="font-size: 4.5vh;">Rock Paper Scissors</h1>
+        <h2 style="font-size: 3.5vh;">Rules: </h2>
+        <h3 style="font-size: 2.5vh;font-weight: normal;">1. Choose your option</h3>
+        <h3 style="font-size: 2.5vh;font-weight: normal;">2. First to 10 point Wins !</h3>
+        <h3 style="font-size: 2.5vh;font-weight: normal;">Note. Check your points every turn</h3><br>
+        <button onclick="openss()" class="kk">Continue</button>
+        <footer style="position: fixed;bottom: 1%;background-color: rgba(255, 255, 255, 0.272);width: 100%;padding: 10px;font-size: medium;">
+        &copy; 2025 All Rights Reserved By Wits & Bytes.
+        </footer>
         </center>
     </div>
     <div id="over" class="overlay">

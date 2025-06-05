@@ -31,7 +31,8 @@ img.k:hover{
     left: 0%;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.653);
+    background: #b9b5e6;
+    background: linear-gradient(90deg, rgba(185, 181, 230, 1) 0%, rgba(199, 199, 242, 1) 35%, rgba(172, 215, 232, 1) 100%);
     backdrop-filter: blur(20px);
     display: block;
 }
@@ -71,9 +72,6 @@ html{
     box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.418);
     background-color: rgb(0, 0, 0);
     color: white;
-}
-.ff{
-    margin-top: 1%;background-color: white;padding: 30px;border-radius: 40px;box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.443);width: 40%;
 }
 .main{
     border: 20px solid black;width: 350px;border-radius: 30px;height: 650px;padding: 20px;margin-left: -2%;

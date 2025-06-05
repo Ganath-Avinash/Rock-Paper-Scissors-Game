@@ -33,11 +33,13 @@ function rock(){
         console.log("You win!");
         document.getElementById("winner").textContent="You Win !!"
         document.getElementById("over").style.display="block";
+        document.getElementById("end").play()
     }
     else if(pcs==10){
         console.log("PC wins!");
         document.getElementById("winner").textContent="PC Wins !!"
         document.getElementById("over").style.display="block";
+        document.getElementById("end").play()
     }
     else{}
 }
@@ -71,11 +73,13 @@ function pap(){
         console.log("You win!");
         document.getElementById("winner").textContent="You Win !!"
         document.getElementById("over").style.display="block";
+        document.getElementById("end").play()
     }
     else if(pcs==10){
         console.log("PC wins!");
         document.getElementById("winner").textContent="PC Wins !!"
         document.getElementById("over").style.display="block";
+        document.getElementById("end").play()
     }
     else{}
 }
@@ -108,11 +112,13 @@ function scc(){
         console.log("You win!");
         document.getElementById("winner").textContent="You Win !!"
         document.getElementById("over").style.display="block";
+        document.getElementById("end").play()
     }
     else if(pcs==10){
         console.log("PC wins!");
         document.getElementById("winner").textContent="PC Wins !!"
         document.getElementById("over").style.display="block";
+        document.getElementById("end").play()
     }
     else{}
 }
